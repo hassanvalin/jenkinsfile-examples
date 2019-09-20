@@ -14,6 +14,7 @@ pipeline {
       steps {
         script {
           echo 'Stage 2'
+          echo 'adding an extra step'
         }
       }
     }
